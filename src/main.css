@@ -1,0 +1,70 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.h1 {
+  margin-left: 600px;
+  margin-top: 70px;
+}
+
+#inputs {
+  display: grid;
+  padding-left: 400px;
+  padding-top: 40px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.brand-name {
+  width: 80%;
+  padding-left: 400px;
+}
+.p,
+.web-site-p,
+.country-p,
+.category-p,
+.des-p {
+  margin-top: 4px;
+  color: red;
+}
+.web-site-p,
+.country-p,
+.category-p {
+  display: none;
+}
+
+.select {
+  margin-top: 30px;
+}
+.form-label {
+  margin-top: 5px;
+}
+.info {
+  display: none;
+  width: 100vw;
+  padding-top: 50px;
+  padding-left: 310px;
+}
+button {
+  margin-top: 20px;
+  margin-left: 420px;
+  width: 50%;
+}
+.country-label {
+  margin-top: 18px;
+}
+.input-group-text {
+  width: 100px;
+  height: 48px;
+  position: relative;
+  top: 10px;
+  border-radius: 0;
+}

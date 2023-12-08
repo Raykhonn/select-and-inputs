@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>62 LESSON</title>
+  </head>
+  <body>
+    <h1 class="h1">Businnes Details</h1>
+    <form id="inputs ">
+      <!-- brand name -->
+
+      <div class="col-md-3 brand-name">
+        <label for="validationCustom05" class="form-label" > Brand name in (English)*</label
+        >
+        <input
+          type="text"
+          class="form-control form-control-lg input-brand"
+          placeholder="Brand name in (English)"
+          id="validationCustom05"
+          required
+        />
+        <p class="p"></p>
+      </div>
+
+      <!-- description -->
+
+      <div class="col-md-3 description brand-name">
+        <label for="validationCustom05" class="form-label"
+          >Description(optional)</label
+        >
+        <input
+          type="text"
+          class="form-control form-control-lg input-description"
+          id="validationCustom05"
+          placeholder="Description"
+          required
+        />
+        <p class="des-p"></p>
+      </div>
+
+      <!-- web site -->
+
+      <div class="col-md-4 brand-name">
+        <label for="validationWebSite" class="form-label">Website(URL)*</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend h1"
+            >https://</span
+          >
+          <input
+            type="text"
+            class="form-control form-control-lg input-web-site"
+            id="validationCustomUsername"
+            placeholder="Website(URL)"
+            aria-describedby="inputGroupPrepend"
+            required
+          />
+        </div>
+        <p class="web-site-p">Website URL is required!</p>
+      </div>
+
+      <!-- country -->
+
+      <div class="col-md-3 brand-name">
+        <label for="validationCustom05 " class="form-label country-label"
+          >Country *</label
+        >
+        <select class="form-select" aria-label="Default select example">
+          <option value="Country">Country</option>
+          <option value="UK">USA</option>
+          <option value="France">France</option>
+          <option value="Poland">South Korea</option>
+        </select>
+        <p class="country-p">Country is a required field!</p>
+      </div>
+
+      <!-- category -->
+
+      <div class="col-md-3 brand-name">
+        <label for="validationCustom05 " class="form-label country-label"
+          >Category *</label
+        >
+        <select
+          class="form-select category"
+          aria-label="Default select example"
+        >
+          <option value="category">Category</option>
+          <option value="Game">Game</option>
+          <option value="learning">Learning</option>
+          <option value="Poland">Working</option>
+        </select>
+        <p class="category-p">Country is a required field!</p>
+      </div>
+
+      <button class="btn btn-primary save">Click</button>
+    </form>
+
+    <!-- next page -->
+
+    <div class="info">
+      <h3 class="info-brand-name"></h3>
+      <h3 class="info-description"></h3>
+      <h3 class="info-web-site"></h3>
+      <h3 class="info-country"></h3>
+      <h3 class="info-category"></h3>
+    </div>
+  </body>
+</html>
